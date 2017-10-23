@@ -18,6 +18,7 @@ Example 2:
 00011
 Answer: 3
  */
+
 package com.nitin.algo;
 
 public class CountIslands {
