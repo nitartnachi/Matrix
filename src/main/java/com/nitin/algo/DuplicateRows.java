@@ -7,7 +7,7 @@
  {0,  1,  1,  0,  0}
  
  should print
- 3 and 5
+ 2 and 5
  */
 package com.nitin.algo;
 

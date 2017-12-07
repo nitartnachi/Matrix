@@ -28,4 +28,12 @@ public class MatrixUtils {
 			System.out.println();
 		}
 	}
+	
+	public static void printBoolean2DMatrix(boolean[][] matrix, int row, int col) {
+		for(int i = 0; i < row; i++) {
+			for(int j = 0; j < col; j++)
+				System.out.print(matrix[i][j] + "  ");
+			System.out.println();
+		}
+	}
 }
