@@ -29,6 +29,17 @@ public class MatrixUtils {
 		}
 	}
 	
+	public static void print2DBinaryMatrix(int[][] matrix, int row, int col) {
+		for(int i = 0; i < row; i++) {
+			for(int j = 0; j < col; j++)
+				if(matrix[i][j] == 1)
+					System.out.print("X" + " ");
+				else
+					System.out.print("-" + " ");
+			System.out.println();
+		}
+	}
+	
 	public static void printBoolean2DMatrix(boolean[][] matrix, int row, int col) {
 		for(int i = 0; i < row; i++) {
 			for(int j = 0; j < col; j++)
